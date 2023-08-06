@@ -281,7 +281,6 @@ button {
 .products-title {
     color: var(--navyblue);
     text-align: center;
-    /* font-family: Roboto; */
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -299,7 +298,7 @@ button {
 
 .products-list-item {
     list-style: none;
-    width: calc(100% - 3 * 16px) / 3;
+    width: calc((100% - 3 * 16px) / 3);
 }
 
 .products-list-img {}
@@ -335,7 +334,7 @@ button {
 .team-list-item {
     list-style: none;
     background-color: #FFFFFF;
-    flex-basis: calc((100% - 3 * 24px) / 4);
+    width: calc((100% - 3 * 24px) / 4);
     border-radius: 0px 0px 4px 4px;
 }
 
@@ -413,9 +412,9 @@ button {
 }
 
 /* Button styles */
+
 .portfolio section {
-    padding-top: 96px;
-    padding-bottom: 120px;
+    padding: 96px 0 120px 0;
 
 }
 
@@ -465,23 +464,23 @@ button {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
 
 
 }
 
 .projects-list-item {
     list-style: none;
-    width: calc(100% - 48px) / 3;
+    width: calc((100% - 48px) / 3);
     display: flex;
-
     border: 1px solid var(--cornflower, #E7E9FC);
     padding-bottom: 0px;
     flex-direction: column;
     align-items: flex-start;
     gap: 32px;
     flex-shrink: 0;
-    column-gap: 24px;
-    row-gap: 48px;
+
 }
 
 .projects-list-img {}
@@ -492,6 +491,7 @@ button {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
 
 
 }
@@ -501,7 +501,6 @@ button {
     padding: 32px 16px;
     border: 1px solid var(--cornflower);
     border-top: none;
-    margin-bottom: 8px;
 
 }
 
