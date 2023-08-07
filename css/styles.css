@@ -108,6 +108,7 @@ button {
     letter-spacing: 0.02em;
     padding: 24px 0;
     display: block;
+    display: inline-block;
 }
 
 .nav-menu:hover,
@@ -290,9 +291,8 @@ button {
 
 .products-list {
     display: flex;
-    flex-wrap: wrap;
     gap: 24px;
-    padding: 120px;
+    /* padding: 120px; */
     justify-content: center;
 }
 
@@ -326,9 +326,8 @@ button {
 
 .team-list {
     display: flex;
-    flex-wrap: wrap;
     gap: 24px;
-    padding: 120px;
+    /* padding: 120px; */
     justify-content: space-between;
 }
 
@@ -415,7 +414,7 @@ button {
 /* Button styles */
 
 .portfolio section {
-    padding: 96px 0 120px 0;
+    /* padding: 96px 0 120px 0; */
 
 }
 
@@ -423,17 +422,18 @@ button {
 
 .hero-portf-list {
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     gap: 24px;
     margin-bottom: 72px;
     margin-left: auto;
     margin-right: auto;
     justify-content: center;
+    margin-top: 96px;
 
 }
 
 .hero-portf-item {
-    list-style: none;
+    /* list-style: none; */
 }
 
 .hero-portf-btn {
