@@ -122,7 +122,7 @@ button {
 
 /* logo */
 
-.logo.link {
+.header-logo {
     color: var(--iris);
     font-weight: 800;
     line-height: 1.17;
@@ -403,7 +403,6 @@ button {
     overflow: hidden;
 }
 
-/* portfolio buttons */
 
 .portfolio section {
     padding-top: 96px;
@@ -423,6 +422,8 @@ button {
 }
 
 .hero-portf-item {}
+
+/* portfolio buttons */
 
 .hero-portf-btn {
     background: var(--cloud);
