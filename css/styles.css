@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-/* Base styles */
+/* base styles */
 :root {
     --white: #FFFFFF;
     --iris: #4D5AE5;
@@ -71,6 +71,8 @@ button {
     padding: 0 15px;
 }
 
+/* header */
+
 .header {
     border-bottom: 1px solid #e7e9fc;
 }
@@ -81,6 +83,8 @@ button {
     height: 72px;
     align-items: center;
 }
+
+/* nav */
 
 .nav-list-item,
 .projects-list-item {
@@ -116,7 +120,7 @@ button {
     color: #404bbf
 }
 
-/* Logo */
+/* logo */
 
 .logo.link {
     color: var(--iris);
@@ -141,7 +145,7 @@ button {
     color: var(--cloud);
 }
 
-/* Contacts */
+/* contacts */
 
 .contacts {
     font-style: normal;
@@ -171,20 +175,13 @@ button {
 }
 
 
-/* Sections */
+/* hero section */
 
 .hero-section {
     background-color: var(--navyblue);
     padding: 188px 0;
 }
 
-.benefits-section {
-    padding: 120px 0;
-}
-
-.products-section {}
-
-/* Hero section */
 .hero-container {}
 
 .hero-title {
@@ -214,9 +211,6 @@ button {
     margin-right: auto;
     display: block;
     min-width: 169px;
-
-
-
 }
 
 .hero-button:hover,
@@ -224,7 +218,11 @@ button {
     background: var(--ocean);
 }
 
-/* Benefits styles */
+/* benefits styles */
+
+.benefits-section {
+    padding: 120px 0;
+}
 
 .benefits-title {
     color: var(--navyblue);
@@ -248,9 +246,8 @@ button {
 }
 
 .benefits-list-item {
-    /* list-style: none; */
     flex-basis: calc((100% - 3 * 24px) / 4);
-    /* width: 264px; */
+
 }
 
 .benefits-list-subtitle {
@@ -272,7 +269,7 @@ button {
 
 }
 
-/* Produt styles */
+/* product styles */
 
 .products-section {
     padding-bottom: 120px;
@@ -292,18 +289,16 @@ button {
 .products-list {
     display: flex;
     gap: 24px;
-    /* padding: 120px; */
     justify-content: center;
 }
 
 .products-list-item {
-    /* list-style: none; */
     width: calc((100% - 3 * 16px) / 3);
 }
 
 .products-list-img {}
 
-/* Team styles */
+/* team styles */
 
 .team-section {
     background-color: var(--cloud);
@@ -327,12 +322,11 @@ button {
 .team-list {
     display: flex;
     gap: 24px;
-    /* padding: 120px; */
     justify-content: space-between;
 }
 
 .team-list-item {
-    /* list-style: none; */
+
     background-color: #FFFFFF;
     width: calc((100% - 3 * 24px) / 4);
     border-radius: 0px 0px 4px 4px;
@@ -366,7 +360,7 @@ button {
 
 }
 
-/* Footer styles */
+/* footer styles */
 
 .footer-section {
     background-color: var(--navyblue);
@@ -391,13 +385,14 @@ button {
     display: inline-block;
 }
 
-/* Portfolio css */
+/* portfolio section*/
 
 .portf-list-item {
     list-style: none;
 }
 
-/* Visually-hidden */
+/* visually-hidden */
+
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -411,30 +406,25 @@ button {
     overflow: hidden;
 }
 
-/* Button styles */
+/* portfolio buttons */
 
 .portfolio section {
     padding: 96px 0 120px 0;
-
 }
 
 .hero-portf-title {}
 
 .hero-portf-list {
     display: flex;
-    /* flex-wrap: wrap; */
     gap: 24px;
     margin-bottom: 72px;
     margin-left: auto;
     margin-right: auto;
     justify-content: center;
     margin-top: 96px;
-
 }
 
-.hero-portf-item {
-    /* list-style: none; */
-}
+.hero-portf-item {}
 
 .hero-portf-btn {
     background: var(--cloud);
@@ -454,10 +444,10 @@ button {
     background: var(--ocean);
     color: var(--white);
     border: 1px solid transparent;
-
 }
 
-/* Projects styles */
+/* projects styles */
+
 .projects-section {}
 
 .projects-title {}
@@ -474,10 +464,7 @@ button {
 .projects-list-item {
     width: calc((100% - 48px) / 3);
     border: 1px solid var(--cornflower, #E7E9FC);
-    /* padding-bottom: 0px; */
-    /* flex-direction: column; */
-    /* align-items: flex-start;
-    flex-shrink: 0; */
+
 }
 
 .projects-list-img {}
