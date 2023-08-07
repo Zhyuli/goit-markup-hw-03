@@ -132,9 +132,7 @@ button {
     font-size: 18px;
     display: flex;
     margin-right: 76px;
-    /* margin-left: 156px; */
     align-items: center;
-
 }
 
 .logo-dark {
@@ -143,6 +141,11 @@ button {
 
 .logo-light {
     color: var(--cloud);
+}
+
+.footer-logo {
+    margin-bottom: 16px;
+    display: inline-block;
 }
 
 /* contacts */
@@ -305,8 +308,6 @@ button {
     padding: 120px 0;
 }
 
-
-
 .team-title {
     color: var(--navyblue);
     text-align: center;
@@ -380,10 +381,6 @@ button {
 
 }
 
-.footer-logo {
-    margin-bottom: 16px;
-    display: inline-block;
-}
 
 /* portfolio section*/
 
@@ -409,7 +406,8 @@ button {
 /* portfolio buttons */
 
 .portfolio section {
-    padding: 96px 0 120px 0;
+    padding-top: 96px;
+    padding-bottom: 120px;
 }
 
 .hero-portf-title {}
